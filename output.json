@@ -1,0 +1,59 @@
+[
+    {
+        "custom_id": "request-1",
+        "method": "POST",
+        "url": "/v1/chat/completions",
+        "body": {
+            "model": "gpt-3.5-turbo-0125",
+            "messages": [
+                {
+                    "role": "system",
+                    "content": "You are a helpful assistant."
+                },
+                {
+                    "role": "user",
+                    "content": "Article / item Taille / Size Qt\u00e9 / Qty\nXXS XS S M L XL XXL\nSPCKNPMU00301 P709 8 12 16 12 7 5 0 60\nCAFE KITSUNE FOX RE TAPIOCA\nXXS XS S M L XL XXL\nSPCKNPMU00302 P199 11 16 21 16 10 6 0 80\nCAFE KITSUNE COFFEE BLACK\nU\nSPCKNPMU06101 P199 40 40\nCAFE KITSUNE 6P CAP BLACK\nU\nSPCKNPMU06101 P709 40 40\nCAFE KITSUNE 6P CAP TAPIOCA\nXXS XS S M L XL XXL\nSPCKSMU00301 M159 4 6 8 6 4 2 0 30\nCAFE KITSUNE COLORBL CHAI COLORBLOCK\nTotal 250\n28/02/2024 11:40:11 Page 1 de 3"
+                }
+            ],
+            "max_tokens": 4096
+        }
+    },
+    {
+        "custom_id": "request-2",
+        "method": "POST",
+        "url": "/v1/chat/completions",
+        "body": {
+            "model": "gpt-3.5-turbo-0125",
+            "messages": [
+                {
+                    "role": "system",
+                    "content": "You are a helpful assistant."
+                },
+                {
+                    "role": "user",
+                    "content": "Article / item Col. Taille / Size Qt\u00e9 / Qty\nXXS XS S M L XL XXL\nSPCKNPMU00302 P199 4 0 19 8 0 0 0 31\nCAFE KITSUNE COFFEE BLACK\nTotal 31\nCode Colis Conditionnement Poids Brut\n000000100004536588 COL1 6*4*4 16.745 KG\nBox Code Packaging Gross Weight\nArticle / item Col. Taille / Size Qt\u00e9 / Qty\nXXS XS S M L XL XXL\nSPCKNPMU00302 P199 7 11 0 0 0 5 0 23\nCAFE KITSUNE COFFEE BLACK\nXXS XS S M L XL XXL\nSPCKSMU00301 M159 0 0 0 0 4 2 0 6\nCAFE KITSUNE COLORBL CHAI COLORBLOCK\nTotal 29\nCode Colis Conditionnement Poids Brut\n000000100004536595 COL1 6*4*4 17.294 KG\nBox Code Packaging Gross Weight\nArticle / item Col. Taille / Size Qt\u00e9 / Qty\nXXS XS S M L XL XXL\nSPCKNPMU00301 P709 5 0 0 0 0 0 0 5\nCAFE KITSUNE FOX RE TAPIOCA\nXXS XS S M L XL XXL\nSPCKNPMU00302 P199 0 5 0 8 9 1 0 23\nCAFE KITSUNE COFFEE BLACK\nXXS XS S M L XL XXL\nSPCKSMU00301 M159 0 0 1 0 0 0 0 1\nCAFE KITSUNE COLORBL CHAI COLORBLOCK\nTotal 29\nCode Colis Conditionnement Poids Brut\n000000100004536601 COL1 6*4*4 16.164 KG\nBox Code Packaging Gross Weight\nArticle / item Col. Taille / Size Qt\u00e9 / Qty\n28/02/2024 11:40:11 Page 2 de 3"
+                }
+            ],
+            "max_tokens": 4096
+        }
+    },
+    {
+        "custom_id": "request-3",
+        "method": "POST",
+        "url": "/v1/chat/completions",
+        "body": {
+            "model": "gpt-3.5-turbo-0125",
+            "messages": [
+                {
+                    "role": "system",
+                    "content": "You are a helpful assistant."
+                },
+                {
+                    "role": "user",
+                    "content": "Article / item Col. Taille / Size Qt\u00e9 / Qty\nXXS XS S M L XL XXL\nSPCKNPMU00301 P709 3 12 9 0 0 0 0 24\nCAFE KITSUNE FOX RE TAPIOCA\nXXS XS S M L XL XXL\nSPCKNPMU00302 P199 0 0 2 0 1 0 0 3\nCAFE KITSUNE COFFEE BLACK\nTotal 27\nCode Colis Conditionnement Poids Brut\n000000100004536625 COL2 6*4*3 7.444 KG\nBox Code Packaging Gross Weight\nArticle / item Col. Taille / Size Qt\u00e9 / Qty\nXXS XS S M L XL XXL\nSPCKSMU00301 M159 0 6 7 0 0 0 0 13\nCAFE KITSUNE COLORBL CHAI COLORBLOCK\nTotal 13\nCode Colis Conditionnement Poids Brut\n000000100004536632 COL4 4*3*3 4.5 KG\nBox Code Packaging Gross Weight\nArticle / item Col. Taille / Size Qt\u00e9 / Qty\nU\nSPCKNPMU06101 P199 35 35\nCAFE KITSUNE 6P CAP BLACK\nTotal 35\nCode Colis Conditionnement Poids Brut\n000000100004536649 COL2 6*4*3 5.7 KG\nBox Code Packaging Gross Weight\nArticle / item Col. Taille / Size Qt\u00e9 / Qty\nU\nSPCKNPMU06101 P199 5 5\nCAFE KITSUNE 6P CAP BLACK\nU\nSPCKNPMU06101 P709 40 40\nCAFE KITSUNE 6P CAP TAPIOCA\nTotal 45\nCode Colis Conditionnement Poids Brut\n000000100004536656 COL3 6*4*2 9.232 KG\nBox Code Packaging Gross Weight\nArticle / item Col. Taille / Size Qt\u00e9 / Qty\nXXS XS S M L XL XXL\nSPCKNPMU00301 P709 0 0 0 0 0 5 0 5\nCAFE KITSUNE FOX RE TAPIOCA\nXXS XS S M L XL XXL\nSPCKSMU00301 M159 4 0 0 6 0 0 0 10\nCAFE KITSUNE COLORBL CHAI COLORBLOCK\nTotal 15\n28/02/2024 11:40:11 Page 3 de 3"
+                }
+            ],
+            "max_tokens": 4096
+        }
+    }
+]

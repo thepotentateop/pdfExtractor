@@ -1,0 +1,143 @@
+Café Kitsuné 9 rue du Helder 75009 PARIS
+N° Téléphone +33 1 42 62 32 38
+N° SIRET : 79975439500017 - N° indentif. intracomm. : FR13799754395 - Forme juridique : EURL - Capital social : 1000 €
+Adresse de Livraison/Consignee Address
+SSENSE
+333 CHABANEL W. #900
+H2N 2E7 - MONTREAL
+RÉSUMÉ/SUMMARY:
+Commande Client
+CKCV-001300
+Info / BP
+DL-C002672
+Date Ref. Comm. Client Incoterm
+21/02/2024
+N° Client / Customer Transporteur / Carrier Mode Paiement / Method of Payment
+0SSENSE/H2N 2E7 EXW
+Nb Colis / N. Box: 9 Poids Brut / Gross Weight: 109.225 KG
+Article / item Taille / Size Qté / Qty
+XXS XS S M L XL XXL
+SPCKNPMU00301 P709 8 12 16 12 7 5 0 60
+CAFE KITSUNE FOX RE TAPIOCA
+XXS XS S M L XL XXL
+SPCKNPMU00302 P199 11 16 21 16 10 6 0 80
+CAFE KITSUNE COFFEE BLACK
+U
+SPCKNPMU06101 P199 40 40
+CAFE KITSUNE 6P CAP BLACK
+U
+SPCKNPMU06101 P709 40 40
+CAFE KITSUNE 6P CAP TAPIOCA
+XXS XS S M L XL XXL
+SPCKSMU00301 M159 4 6 8 6 4 2 0 30
+CAFE KITSUNE COLORBL CHAI COLORBLOCK
+Total 250
+28/02/2024 11:40:11 Page 1 de 3
+
+Café Kitsuné 9 rue du Helder 75009 PARIS
+N° Téléphone +33 1 42 62 32 38
+N° SIRET : 79975439500017 - N° indentif. intracomm. : FR13799754395 - Forme juridique : EURL - Capital social : 1000 €
+Adresse de Livraison/Consignee Address
+SSENSE
+333 CHABANEL W. #900
+H2N 2E7 - MONTREAL
+DETAILS:
+Commande Client
+CKCV-001300
+Info / BP
+DL-C002672
+Nb Colis / N. Box: 9 Poids Brut / Gross Weight: 109.225 KG
+Code Colis Conditionnement Poids Brut
+000000100004536571 COL1 6*4*4 17.134 KG
+Box Code Packaging Gross Weight
+Article / item Col. Taille / Size Qté / Qty
+XXS XS S M L XL XXL
+SPCKNPMU00302 P199 4 0 19 8 0 0 0 31
+CAFE KITSUNE COFFEE BLACK
+Total 31
+Code Colis Conditionnement Poids Brut
+000000100004536588 COL1 6*4*4 16.745 KG
+Box Code Packaging Gross Weight
+Article / item Col. Taille / Size Qté / Qty
+XXS XS S M L XL XXL
+SPCKNPMU00302 P199 7 11 0 0 0 5 0 23
+CAFE KITSUNE COFFEE BLACK
+XXS XS S M L XL XXL
+SPCKSMU00301 M159 0 0 0 0 4 2 0 6
+CAFE KITSUNE COLORBL CHAI COLORBLOCK
+Total 29
+Code Colis Conditionnement Poids Brut
+000000100004536595 COL1 6*4*4 17.294 KG
+Box Code Packaging Gross Weight
+Article / item Col. Taille / Size Qté / Qty
+XXS XS S M L XL XXL
+SPCKNPMU00301 P709 5 0 0 0 0 0 0 5
+CAFE KITSUNE FOX RE TAPIOCA
+XXS XS S M L XL XXL
+SPCKNPMU00302 P199 0 5 0 8 9 1 0 23
+CAFE KITSUNE COFFEE BLACK
+XXS XS S M L XL XXL
+SPCKSMU00301 M159 0 0 1 0 0 0 0 1
+CAFE KITSUNE COLORBL CHAI COLORBLOCK
+Total 29
+Code Colis Conditionnement Poids Brut
+000000100004536601 COL1 6*4*4 16.164 KG
+Box Code Packaging Gross Weight
+Article / item Col. Taille / Size Qté / Qty
+28/02/2024 11:40:11 Page 2 de 3
+
+XXS XS S M L XL XXL
+SPCKNPMU00301 P709 0 0 7 12 7 0 0 26
+CAFE KITSUNE FOX RE TAPIOCA
+Total 26
+Code Colis Conditionnement Poids Brut
+000000100004536618 COL1 6*4*4 15.012 KG
+Box Code Packaging Gross Weight
+Article / item Col. Taille / Size Qté / Qty
+XXS XS S M L XL XXL
+SPCKNPMU00301 P709 3 12 9 0 0 0 0 24
+CAFE KITSUNE FOX RE TAPIOCA
+XXS XS S M L XL XXL
+SPCKNPMU00302 P199 0 0 2 0 1 0 0 3
+CAFE KITSUNE COFFEE BLACK
+Total 27
+Code Colis Conditionnement Poids Brut
+000000100004536625 COL2 6*4*3 7.444 KG
+Box Code Packaging Gross Weight
+Article / item Col. Taille / Size Qté / Qty
+XXS XS S M L XL XXL
+SPCKSMU00301 M159 0 6 7 0 0 0 0 13
+CAFE KITSUNE COLORBL CHAI COLORBLOCK
+Total 13
+Code Colis Conditionnement Poids Brut
+000000100004536632 COL4 4*3*3 4.5 KG
+Box Code Packaging Gross Weight
+Article / item Col. Taille / Size Qté / Qty
+U
+SPCKNPMU06101 P199 35 35
+CAFE KITSUNE 6P CAP BLACK
+Total 35
+Code Colis Conditionnement Poids Brut
+000000100004536649 COL2 6*4*3 5.7 KG
+Box Code Packaging Gross Weight
+Article / item Col. Taille / Size Qté / Qty
+U
+SPCKNPMU06101 P199 5 5
+CAFE KITSUNE 6P CAP BLACK
+U
+SPCKNPMU06101 P709 40 40
+CAFE KITSUNE 6P CAP TAPIOCA
+Total 45
+Code Colis Conditionnement Poids Brut
+000000100004536656 COL3 6*4*2 9.232 KG
+Box Code Packaging Gross Weight
+Article / item Col. Taille / Size Qté / Qty
+XXS XS S M L XL XXL
+SPCKNPMU00301 P709 0 0 0 0 0 5 0 5
+CAFE KITSUNE FOX RE TAPIOCA
+XXS XS S M L XL XXL
+SPCKSMU00301 M159 4 0 0 6 0 0 0 10
+CAFE KITSUNE COLORBL CHAI COLORBLOCK
+Total 15
+28/02/2024 11:40:11 Page 3 de 3
+
