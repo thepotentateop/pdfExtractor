@@ -1,4 +1,5 @@
 /.venv
+/.idea
 .gitignore
 test.py
 *.txt
