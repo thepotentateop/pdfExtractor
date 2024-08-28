@@ -1,0 +1,23 @@
+{
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "Here is the extracted data in JSON format:\n\n```\n{\n  \"Invoice\": {\n    \"InvoiceNumber\": \"18896\",\n    \"InvoiceDate\": \"04/03/24\"\n  },\n  \"PurchaseOrder\": {\n    \"PurchaseOrderNumber\": null,\n    \"PurchaseOrderDate\": null\n  },\n  \"BillTo\": {\n    \"Name\": \"ATALLAH GROUP INC DBA SSENSE\",\n    \"Address\": {\n      \"Line1\": \"333 CHABANEL W. #900\",\n      \"Line2\": \"\",\n      \"City\": \"MONTREAL\",\n      \"State\": \"QUEBEC\",\n      \"Zip\": \"H2N 2E7\",\n      \"Country\": \"CANADA\"\n    }\n  },\n  \"SalesOrder\": {\n    \"SalesOrderNumber\": null,\n    \"SalesOrderDate\": null\n  },\n  \"Incoterm\": {\n    \"Term\": \"EX WORKS\"\n  },\n  \"Consignee\": {\n    \"Name\": \"SSENSE WAREHOUSE\",\n    \"Address\": {\n      \"Line1\": \"3665 Poirier boulevard\",\n      \"Line2\": \"DOOR 129-132\",\n      \"City\": \"SAINT LAURENT\",\n      \"State\": \"QUEBEC\",\n      \"Zip\": \"H4R 3J2\",\n      \"Country\": \"CANADA\"\n    }\n  }\n}\n```\n\nNote that some fields, such as `PurchaseOrderNumber` and `SalesOrderNumber`, are null because they were not present in the original data. If you need to fill in these fields, please let me know!",
+                "role": "assistant"
+            },
+            "stop_reason": null
+        }
+    ],
+    "created": 1724757594,
+    "id": "cmpl-3a79302ae9d34122a4e6c2b7ab8da21c",
+    "model": "meta--llama3-70b-instruct",
+    "object": "chat.completion",
+    "usage": {
+        "completion_tokens": 341,
+        "prompt_tokens": 244,
+        "total_tokens": 585
+    }
+}

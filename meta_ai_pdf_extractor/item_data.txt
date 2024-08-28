@@ -1,0 +1,23 @@
+{
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "Here is the extracted data in JSON format:\n\n```\n[\n  {\n    \"Invoice\": 56105490,\n    \"Style\": \"24P5BW0045878\",\n    \"Color\": \"B1919 BLACK/BLACK\",\n    \"Sizes\": [\n      { \"Size\": 38, \"Quantity\": 1 },\n      { \"Size\": 40, \"Quantity\": 2 },\n      { \"Size\": 42, \"Quantity\": 4 },\n      { \"Size\": 44, \"Quantity\": 2 },\n      { \"Size\": 46, \"Quantity\": 1 }\n    ]\n  },\n  {\n    \"Invoice\": 56105490,\n    \"Style\": \"24P5BW0046864\",\n    \"Color\": \"1999 BLACK\",\n    \"Sizes\": [\n      { \"Size\": 38, \"Quantity\": 1 },\n      { \"Size\": 40, \"Quantity\": 2 },\n      { \"Size\": 42, \"Quantity\": 4 },\n      { \"Size\": 44, \"Quantity\": 3 },\n      { \"Size\": 46, \"Quantity\": 2 }\n    ]\n  },\n  {\n    \"Invoice\": 56105491,\n    \"Style\": \"24S2BO02361111\",\n    \"Color\": \"6080 SILVER BLUE\",\n    \"Sizes\": [\n      { \"Size\": \"XS\", \"Quantity\": 5 },\n      { \"Size\": \"S\", \"Quantity\": 5 },\n      { \"Size\": \"M\", \"Quantity\": 3 },\n      { \"Size\": \"L\", \"Quantity\": 2 },\n      { \"Size\": \"XL\", \"Quantity\": 1 }\n    ]\n  }\n]\n```\n\nLet me know if you need any further assistance!",
+                "role": "assistant"
+            },
+            "stop_reason": null
+        }
+    ],
+    "created": 1724748153,
+    "id": "cmpl-43b14c5a6c6d4ef18620abed4478aca9",
+    "model": "meta--llama3-70b-instruct",
+    "object": "chat.completion",
+    "usage": {
+        "completion_tokens": 367,
+        "prompt_tokens": 821,
+        "total_tokens": 1188
+    }
+}
