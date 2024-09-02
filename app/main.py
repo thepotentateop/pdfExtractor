@@ -1,13 +1,30 @@
-from fastapi import FastAPI, UploadFile, File, Form, HTTPException
+from app.auth import hash_password, verify_password, create_access_token, get_current_user, Token, TokenData
+from fastapi import FastAPI, HTTPException, Depends, status, Request
+from fastapi.security import OAuth2PasswordRequestForm
+from datetime import datetime, timedelta, timezone
+from fastapi_limiter.depends import RateLimiter
+from app.pdfExtractionHelper import PDFExtractor
 from fastapi.responses import JSONResponse
 from pydantic import BaseModel
+from collections import defaultdict
 from typing import List
 from uuid import uuid4
+from typing import Dict
+import logging
 import base64
 import os
-from pdfExtractionHelper import PDFExtractor
+
 
 app = FastAPI()
+
+
+# Example user storage
+fake_users_db = {
+    "TSPABAP": {
+        "username": "TSP ABAPers",
+        "password": hash_password("Welcome@321")  # In a real app, use hashed passwords
+    }
+}
 
 UPLOAD_FOLDER = 'uploads'
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
@@ -23,7 +40,66 @@ class FileUpload(BaseModel):
     base64_string: str
 
 
+class User(BaseModel):
+    username: str
+
+
+class UserInDB(User):
+    password: str
+
+
+# Configure logging
 file_store = {}
+
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
+
+rate_limit_data: Dict[str, list] = defaultdict(list)
+RATE_LIMIT = 100
+TIME_WINDOW = timedelta(minutes=1)
+
+
+def rate_limiter(request: Request):
+    client_ip = request.client.host
+    now = datetime.now()
+
+    # Cleanup old requests
+    rate_limit_data[client_ip] = [timestamp for timestamp in rate_limit_data[client_ip] if now - timestamp < TIME_WINDOW]
+
+    if len(rate_limit_data[client_ip]) >= RATE_LIMIT:
+        raise HTTPException(status_code=status.HTTP_429_TOO_MANY_REQUESTS, detail="Rate limit exceeded")
+
+    # Record the current request
+    rate_limit_data[client_ip].append(now)
+
+
+@app.middleware("http")
+async def add_rate_limit(request: Request, call_next):
+    try:
+        rate_limiter(request)
+        response = await call_next(request)
+    except HTTPException as e:
+        response = JSONResponse(status_code=e.status_code, content={"detail": e.detail})
+    return response
+
+
+@app.post("/token", response_model=Token)
+async def login(form_data: OAuth2PasswordRequestForm = Depends()):
+    user = fake_users_db.get(form_data.username)
+    if not user or not verify_password(form_data.password, user['password']):
+        raise HTTPException(
+            status_code=status.HTTP_401_UNAUTHORIZED,
+            detail="Incorrect username or password",
+            headers={"WWW-Authenticate": "Bearer"},
+        )
+    access_token = create_access_token(data={"sub": form_data.username})
+    return {"access_token": access_token, "token_type": "bearer"}
+
+
+# Secured endpoint example
+@app.get("/users/me", response_model=User)
+async def read_users_me(current_user: TokenData = Depends(get_current_user)):
+    return {"username": current_user.username}
 
 
 @app.post("/upload")
