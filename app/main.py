@@ -2,7 +2,6 @@ from app.auth import hash_password, verify_password, create_access_token, get_cu
 from fastapi import FastAPI, HTTPException, Depends, status, Request
 from fastapi.security import OAuth2PasswordRequestForm
 from datetime import datetime, timedelta, timezone
-from fastapi_limiter.depends import RateLimiter
 from app.pdfExtractionHelper import PDFExtractor
 from fastapi.responses import JSONResponse
 from pydantic import BaseModel
