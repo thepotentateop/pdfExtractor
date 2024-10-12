@@ -129,3 +129,15 @@ async def extract_items(request: ExtractionRequest):
         return JSONResponse(content={"error": str(e)}, status_code=500)
 
 
+@app.post("/clear-sftp-folder")
+async def clear_sftp_folder(confirm: bool = False):
+    if not confirm:
+        return JSONResponse(content={"error": "Please confirm by setting 'confirm' parameter to True"}, status_code=400)
+    try:
+        sftp_client.chdir(settings.SFTP_REMOTE_DIR)
+        files = sftp_client.listdir()
+        for file in files:
+            sftp_client.remove(file)
+        return JSONResponse(content={"message": "SFTP folder cleared successfully"}, status_code=200)
+    except Exception as e:
+        return JSONResponse(content={"error": str(e)}, status_code=500)
